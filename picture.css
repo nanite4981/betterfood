@@ -1,0 +1,76 @@
+/* Header */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff7f50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    margin-top: 10px;
+}
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  
+  .food-image-container {
+    width: 80%; /* Adjust the width as necessary */
+    max-width: 600px; /* Maximum width of the container */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: auto;
+    overflow: hidden; /* This will ensure the image doesn't overflow the container */
+  }
+  
+  .food-image {
+    width: 100%;
+    height: auto; /* Keep the aspect ratio of the image */
+    display: block; /* Remove bottom space under the image */
+  }
+  
